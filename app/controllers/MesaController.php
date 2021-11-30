@@ -252,7 +252,7 @@ class MesaController extends Mesa
         }
       }
 
-      $payload = json_encode(array("mensaje" => "Todo GUUUD"));
+      $payload = json_encode(array("mensaje" => "El cliente ya se encuentra comiendo, ya recibio la comida"));
 
     }
     catch(Exception $e)
