@@ -20,3 +20,4 @@ La descarga del excel y del pdf se realiza directamente desde el navegador.
 Tambien paso 2 POSTMAN, el que apunta a mi localhost y el que apunta a heroku.
 
 - Las tablas las paso por el gdb.
+- En el localhost funciona bien el tema de sacarle una foto a la mesa. Pero por heroku no se como hacerlo.
