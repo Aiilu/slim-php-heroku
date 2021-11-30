@@ -1,0 +1,22 @@
+Dejo los 3 socios cargados.
+Nombre   Contraseña
+------   -----------
+Leo       1234
+Ailen     abcd
+Silvia    4321
+
+
+TOKEN LEO:
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2MzgyODcwMTAsImV4cCI6MTYzODM0NzAxMCwiYXVkIjoiZTMyMDNkZTE3MDg5NjFhZDkzMTYzNmUzM2QxY2ZlMjk0YmVlZGUwMSIsImRhdGEiOnsiaWRVc3VhcmlvIjoyNSwidGlwb0VtcGxlYWRvIjoiU29jaW8ifSwiYXBwIjoiVGVzdCBKV1QifQ.bY4RBnI9IrbIf7gv7GM7GzKIoHS8d40N80RYrD0ChSg
+
+TOKEN AILEN:
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2MzgyODY5NTcsImV4cCI6MTYzODM0Njk1NywiYXVkIjoiZTMyMDNkZTE3MDg5NjFhZDkzMTYzNmUzM2QxY2ZlMjk0YmVlZGUwMSIsImRhdGEiOnsiaWRVc3VhcmlvIjozNSwidGlwb0VtcGxlYWRvIjoiU29jaW8ifSwiYXBwIjoiVGVzdCBKV1QifQ.p5_RXTejINh09ufjKoUMVM9sKVvlNiwcAeqiSgc-3O8
+
+TOKEN SILVIA:
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2MzgyODY5ODQsImV4cCI6MTYzODM0Njk4NCwiYXVkIjoiZTMyMDNkZTE3MDg5NjFhZDkzMTYzNmUzM2QxY2ZlMjk0YmVlZGUwMSIsImRhdGEiOnsiaWRVc3VhcmlvIjozNiwidGlwb0VtcGxlYWRvIjoiU29jaW8ifSwiYXBwIjoiVGVzdCBKV1QifQ.R2icdjj9DJhoVkStjLt-7uJ7kPi6OTVoVldcbOjxq_M
+
+El proyecto fue probado desde la localhost y desde heroku usando remotemysql.com y ajustando los parametros del .env en la configuracion de la cuenta de heroku.
+La descarga del excel y del pdf se realiza directamente desde el navegador.
+Tambien paso 2 POSTMAN, el que apunta a mi localhost y el que apunta a heroku.
+
+- Las tablas las paso por el gdb.
