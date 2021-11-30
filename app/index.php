@@ -40,11 +40,6 @@ $app->addErrorMiddleware(true, true, true);
 $app->addBodyParsingMiddleware();
 
 // Routes
-$app->get('[/]', function (Request $request, Response $response) {    
-  $response->getBody()->write("GET => Bienvenido!!! a SlimFramework");
-  return $response;
-});
-
 $app->group('/usuarios', function (RouteCollectorProxy $group) {
     //Trae todos los usuarios filtrado por tipoUsuario
     $group->get('/{tipo}', \UsuarioController::class . ':TraerTodos')->add(new ValidarRol("Socio"));
